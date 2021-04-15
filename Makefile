@@ -6,8 +6,8 @@ BIN_DIR := bin
 
 BIN_TARGET := $(BIN_DIR)/$(BIN_NAME)
 
-CPPFLAGS	:= -O2
-CFLAGS 		:= -Wall
+CPPFLAGS := -O2
+CFLAGS := -Wall
 
 .PHONY: all clean
 
