@@ -86,7 +86,14 @@ uint16_t checksum(uint16_t *header, int len) {
 }
 
 void print_help() {
-    puts("Test");
+    puts("Usage:");
+    puts("sudo ./ping <target_address> <options>\n");
+    puts("Options:");
+    puts("-h        Show usage");
+    puts("-i        continuous ping");
+    puts("-c <int>  number of ICMP requests to send");
+    puts("-s <int>  byte size of data");
+    puts("-t <int>  timeout in sec\n");
 }
 
 int main (int argc, char **argv) {
